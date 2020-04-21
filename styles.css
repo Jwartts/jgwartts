@@ -4,7 +4,7 @@ a:link {
 }
 
 a:visited {
-  color: antiquewhite;
+  color: #ffefdb;
 }
 
 a:hover {
@@ -99,7 +99,7 @@ right: 45px; top:10px;
 
 .menu-button {background-color: #000839;
 display: inline-block;
-color: antiquewhite;
+color: #ffefdb;
 padding: 17px;
 border: none;
 font-size: 100%;
