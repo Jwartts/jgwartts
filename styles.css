@@ -1,197 +1,23 @@
-/*****************************TAG SELECTORS***************************/
-a:link {
-  color: #000839;
+
+body {background-color:#ffecc7;}
+
+#top {border-style:none;
+Border-right-style: none;
+Border-top-style: dotted;
+Border-bottom-style: none;
+border-color: #30475e;
+border-width: 45px;
+width:99%;}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #30475e;
+  border-width: 45px;
+  width:30%;
 }
-
-a:visited {
-  color: antiquewhite;
-}
-
-a:hover {
-  color: #00a8cc;
-}
-
-body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Karma', serif;
-  font-size: 115%;
-  color: #000839;
-}
-
-h1 {
-  margin: 0 auto 10px 0;
-  font-family: 'Give You Glory', cursive;
-  font-size: 4rem;
-  color: #005082;
-}
-
-h2 {
-  font-size: 2.5rem;
-  font-family: 'Give You Glory', cursive;
-  color: #ff5733;
-  margin-bottom: 10px;
-}
-
-h3 {
-  Margin: 0;
-  font-size: 1.755rem;
-}
-
-hr {
-  border-style: dotted none none none;
-  border-width: 25px;
-  width: 30%;
-  color: #000839;
-}
-
-p {
-  padding: 0 12px;
-  margin-top: 10px;
-}
-
-/*****************************CLASS SELECTORS***************************/
-.bottom-container {
-  background-color: #005082;
-  padding-top: 20px;
-  color: white;
-}
-
-.bottom-cloud {
-  position: relative;
-  bottom: 11.5em;
-  right: 6.875em;
-}
-
-.contact-me {
-  margin-top: 10px;
-  padding-bottom: 15px;
-  background-color: #005082
-}
-/*
-.dropdown {
-display: inline-block;
-position: fixed;
-right: 45px; top:10px;
-}*/
-
-.girl {
-  height: 300px;
-  background-color: antiquewhite;
-  border-radius: 20%;
-  padding-top: 3px;
-  margin-top: 13px;
-  position: relative;
-  right: 6%;
-}
-
-.GIT {
-  margin-bottom: 10px;
-  color: #00a8cc;
-
-}
-
-.hi {
-  margin-top: 0;
-  padding-top: 20px;
-}
-
-
-.menu-button {background-color: #000839;
-display: inline-block;
-color: antiquewhite;
-padding: 17px;
-border: none;
-font-size: 100%;
-font-family: 'Karma',cursive;
-position: fixed;
-right: 45px; top:10px;
-}
-
-.menu-button:hover {background-color: #005082;}
-/*
-.menu-content {display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-z-index: 1;}
-
-.menu-content a {color: #000839;
-padding: 12px 16px;
-text-decoration: none;
-display:block;}
-
-.dropdown:hover .menu-content {display: block;}*/
-
-.moving-update {
-  color: #005082;
-}
-
-.middle-container {
-  background-color: #ffa41b;
-
-}
-.name {margin-bottom: 0;}
-
-.normal {
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
-.phd {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 12%;
-}
-
-.phd-update {
-  color: #005082;
-}
-
-.profile {
-  margin-bottom: 50px;
-}
-
-.skill-row {
-  width: 60%;
-  margin: 25px auto 90px;
-  text-align: left;
-  line-height: 2;
-}
-
-.truck {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.tag-line {
-  color: #005082
-}
-
-.top-cloud {
-  position: relative;
-  top: 45px;
-  left: 330px;
-}
-
-.top-container {
-  background-color: #00a8cc;
-}
-.socially-awkward {
-  font-style: italic;
-}
-
-.sorry {
-  margin-top: 0;
-  color: white;
-}
-
-.updates {
-  margin-bottom: 0;
-  margin-top: 45px;
-}
-
-/*****************************ID SELECTORS***************************/
+h1
+{
+  color: #222831;text-transform: uppercase;}
+h2 {background-color: #ececec; color: #222831; text-decoration: underline;}
+h3 {color: #222831;}
